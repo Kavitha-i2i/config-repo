@@ -1,0 +1,14 @@
+server:
+    port : 8081
+profile:
+    desc : This property file is specific to DEVELOPMENT environment
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/USER_DB
+    username: root
+    password: root
